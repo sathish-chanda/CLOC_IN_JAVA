@@ -1,0 +1,13 @@
+My algorithm to Problem 3 is as follows.
+
+1.Read the filename as a commandline argument. 
+2.Check its a file or a directory.If its a file goto step 3 otherwise goto step 4.
+3.Check the file type whether a java or anyother file.If its a java file goto step 4.Otherwise, goto step 10.
+4.Read file count the number of blanklines,comments and codelines.Goto step 5.
+5.Get list of paths of all '.java' files in the file directoy by calling recursively if its a directoy again.Goto step 6.
+6.Finding the unique .java files by applying MD5 encryption on the file content which generates a unique Key for different contents.
+7.Add the key into the SET if its not exists in the SET which is a considered to be a unique file.
+8.Read file count the number of blanklines,comments and codelines in unique files.
+9.display size of list of java files,size of SET,blanklines,comments,codelines.
+10.exit.
+ "# First Maven Project"  

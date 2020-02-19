@@ -1,0 +1,4 @@
+Exceutions Steps:
+1.mvn clean
+2.mvn install
+3.java -jar target/assignment-1.0.jar filename 

@@ -10,4 +10,3 @@ My algorithm to Problem 3 is as follows.
 8.Read file count the number of blanklines,comments and codelines in unique files.
 9.display size of list of java files,size of SET,blanklines,comments,codelines.
 10.exit.
- "# First Maven Project"  
